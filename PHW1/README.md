@@ -61,6 +61,8 @@ def Kf_CV(X, y, trained_model, K):
 **return**
 - accuracy: the accuracy of its model
 
+<br/>
+
 ### 5. Visualization
 - Visualize evaluation of models using matplotlib
 ```python
@@ -69,6 +71,8 @@ def visualizing_result(K3, K15):
 **parameters**
 - K3: the result of evaluation when K is 3 in K-fold
 - K15: the result of evaluation when K is 15 in K-fold
+
+<br/>
 
 ### 6. Model Building
 - Build a models 
@@ -84,6 +88,7 @@ def decision_tree(X, y, criterion, optimize=True):
 
 **return**
 - tree_model: the trained decision tree model instance
+
 <br/>
 
 2. Logistic Regression
