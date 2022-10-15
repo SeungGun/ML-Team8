@@ -51,9 +51,6 @@ def encoding_ordinal(df):
 def min_max_scaling(df):
 def robust_scaling(df):
 def z_score_scaling(df):
-
-<br/>
-
 ```
 **parameters**
 - df: The entire original data set
@@ -65,7 +62,7 @@ def z_score_scaling(df):
 
 ### 4. Quality Measure
 - Measure quality of Clustering analysis using below methods
-1. Purity score**
+**1. Purity score**
 ```python
 def purity_score(y_true, y_pred):
 ```
